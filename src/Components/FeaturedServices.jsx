@@ -1,11 +1,11 @@
 const FeaturedServices = () => {
   return (
     <div className="bg-black pb-12">
-      <h1 className="flex justify-center text-6xl py-12 text-white">
+      <h1 className="flex justify-center text-4xl sm:text-5xl md:text-6xl py-8 sm:py-10 md:py-12 text-white">
         Featured Services
       </h1>
-      <div className="flex gap-9 max-w-7xl justify-between items-center mx-auto text-white">
-        <div className="card w-96 bg-base-100 shadow-xl">
+      <div className="flex flex-col md:flex-row gap-6 md:gap-9 max-w-7xl justify-between items-center mx-auto text-white px-4 sm:px-6 lg:px-8">
+        <div className="card bg-base-100 shadow-xl w-full md:w-auto" style={{ border: '2px solid #13FFAA' }}>
           <div className="card-body">
             <h2 className="card-title font-bold text-xl">Distribution</h2>
             <div className="py-3 space-y-3 font-normal">
@@ -17,7 +17,7 @@ const FeaturedServices = () => {
             </div>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card bg-base-100 shadow-xl w-full md:w-auto" style={{ border: '2px solid #1E67C6' }}>
           <div className="card-body">
             <h2 className="card-title font-bold text-xl">Royalty</h2>
             <div className="py-3 space-y-3 font-normal">
@@ -29,10 +29,9 @@ const FeaturedServices = () => {
             </div>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card bg-base-100 shadow-xl w-full md:w-auto" style={{ border: '2px solid #CE84CF' }}>
           <div className="card-body">
             <h2 className="card-title font-bold text-font-medium">Official Artist Profile</h2>
-
             <div className="py-3 space-y-3 font-normal">
               <li>Verified badge to increase credibility</li>
               <li>Customizable profile with photos and bio</li>
@@ -42,10 +41,9 @@ const FeaturedServices = () => {
             </div>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card bg-base-100 shadow-xl w-full md:w-auto" style={{ border: '2px solid #DD335C' }}>
           <div className="card-body">
             <h2 className="card-title font-bold text-font-medium">24/7 Support</h2>
-
             <div className="py-3 space-y-3 font-normal">
               <li>Instant help via chat, email, and phone</li>
               <li>Comprehensive FAQs and tutorials</li>

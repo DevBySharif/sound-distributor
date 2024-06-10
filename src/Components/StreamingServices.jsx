@@ -7,7 +7,7 @@ import img6 from"../assets/images/deezer.svg"
 
 const StreamingServices = () => {
     return (
-        <div className="bg-black">
+        <div className="bg-black border-b border-zinc-700">
             <div className="flex flex-wrap justify-center items-center lg:gap-24 gap-6 p-6 max-w-7xl mx-auto">
   <img className="w-32 h-20" src={img1} alt="Image 1" />
   <img className="w-32 h-20" src={img2} alt="Image 2" />

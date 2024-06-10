@@ -1,6 +1,7 @@
 // import { Outlet } from "react-router-dom";
 
 import Banner from "../../Components/Banner";
+import Contact from "../../Components/Contact";
 import FeaturedArtist from "../../Components/FeaturedArtist";
 import FeaturedServices from "../../Components/FeaturedServices";
 import Footer from "../../Components/Footer";
@@ -14,6 +15,7 @@ const Mainlayout = () => {
       <StreamingServices></StreamingServices>
       <FeaturedServices></FeaturedServices>
       <FeaturedArtist></FeaturedArtist>
+      <Contact></Contact>
       <Footer></Footer>
     </div>
   );
