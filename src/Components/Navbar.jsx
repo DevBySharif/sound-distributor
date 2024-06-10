@@ -15,42 +15,26 @@ const Navbar = () => {
     <div className="lg:flex lg:justify-center lg:items-center">
       <li>
         <Link
-          className="font-poppins text-white font-extralight text-xl hover:border-b-4 border-orange-500"
+          className="font-poppins text-white font-thin text-xl hover:font-bold"
           to="/"
         >
-          Featured Services
+          Services
         </Link>
       </li>
       <li>
         <Link
-          className="font-poppins text-white font-extralight text-xl hover:border-b-4 border-orange-500"
+          className="font-poppins text-white font-thin text-xl hover:font-bold"
           to="/community"
-        >
-          Streaming Service
-        </Link>
-      </li>
-      <li>
-        <Link
-          className="font-poppins text-white font-extralight text-xl hover:border-b-4 border-orange-500"
-          to="/blogs"
         >
           Featured Artists
         </Link>
       </li>
       <li>
         <Link
-          className="font-poppins text-white font-extralight text-xl hover:border-b-4 border-orange-500"
-          to="/aboutUs"
+          className="font-poppins text-white font-thin text-xl hover:font-bold"
+          to="/blogs"
         >
-          About Us
-        </Link>
-      </li>
-      <li>
-        <Link
-          className="font-poppins text-white font-extralight text-xl hover:border-b-4 border-orange-500"
-          to="/contactUs"
-        >
-          Contact Us
+         Contacts
         </Link>
       </li>
     </div>
