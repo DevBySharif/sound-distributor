@@ -69,7 +69,7 @@ const Navbar = () => {
             </ul>
           </div>
           {/* <img className="h-full object-cover" src={logo} alt="" /> */}
-          <h1 className="text-white font-extrabold text-3xl ml-4">Distributor</h1>
+          <h1 className="text-white font-extrabold text-3xl ml-4">Distrofy</h1>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navLink}</ul>
