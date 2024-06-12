@@ -17,9 +17,7 @@ const FeaturedArtist = () => {
             world. Each brings unique sounds and captivating stories. Celebrate
             their contributions to music with us.
           </p>
-          <button className="bg-indigo-500 text-white font-medium py-2 px-4 rounded transition-all hover:bg-indigo-600 active:scale-95">
-            Find a class
-          </button>
+          
         </div>
         <ShuffleGrid />
       </section>

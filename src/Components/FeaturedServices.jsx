@@ -5,7 +5,7 @@ const FeaturedServices = () => {
         Featured Services
       </h1>
       <div className="flex flex-col md:flex-row gap-6 md:gap-9 max-w-7xl justify-between items-center mx-auto text-white px-4 sm:px-6 lg:px-8">
-        <div className="card bg-base-100 shadow-xl w-full md:w-auto" style={{ border: '2px solid #13FFAA' }}>
+        <div className="card shadow-xl w-full md:w-auto" style={{ border: '2px solid #13FFAA' }}>
           <div className="card-body">
             <h2 className="card-title font-bold text-xl">Distribution</h2>
             <div className="py-3 space-y-3 font-normal">
@@ -17,7 +17,7 @@ const FeaturedServices = () => {
             </div>
           </div>
         </div>
-        <div className="card bg-base-100 shadow-xl w-full md:w-auto" style={{ border: '2px solid #1E67C6' }}>
+        <div className="card  shadow-xl w-full md:w-auto" style={{ border: '2px solid #1E67C6' }}>
           <div className="card-body">
             <h2 className="card-title font-bold text-xl">Royalty</h2>
             <div className="py-3 space-y-3 font-normal">
@@ -29,7 +29,7 @@ const FeaturedServices = () => {
             </div>
           </div>
         </div>
-        <div className="card bg-base-100 shadow-xl w-full md:w-auto" style={{ border: '2px solid #CE84CF' }}>
+        <div className="card  shadow-xl w-full md:w-auto" style={{ border: '2px solid #CE84CF' }}>
           <div className="card-body">
             <h2 className="card-title font-bold text-font-medium">Official Artist Profile</h2>
             <div className="py-3 space-y-3 font-normal">
@@ -41,7 +41,7 @@ const FeaturedServices = () => {
             </div>
           </div>
         </div>
-        <div className="card bg-base-100 shadow-xl w-full md:w-auto" style={{ border: '2px solid #DD335C' }}>
+        <div className="card  shadow-xl w-full md:w-auto" style={{ border: '2px solid #DD335C' }}>
           <div className="card-body">
             <h2 className="card-title font-bold text-font-medium">24/7 Support</h2>
             <div className="py-3 space-y-3 font-normal">

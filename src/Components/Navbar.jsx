@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import useAuth from "../Hook/useAuth";
-// import logo from "../assets/images/logo.png";
-
+import logo from "../assets/images/Distrofy banner w tr.png";
+import { FiSend } from "react-icons/fi";
 const Navbar = () => {
   const location = useLocation();
   const isHomePage = location.pathname === "/";
@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className="lg:flex lg:justify-center lg:items-center">
       <li>
         <Link
-          className="font-poppins text-white font-thin text-xl hover:font-bold"
+          className="font-poppins text-white lg:font-thin lg:text-xl text-lg hover:font-bold"
           to="/"
         >
           Services
@@ -23,7 +23,7 @@ const Navbar = () => {
       </li>
       <li>
         <Link
-          className="font-poppins text-white font-thin text-xl hover:font-bold"
+          className="font-poppins text-white lg:font-thin lg:text-xl text-lg hover:font-bold"
           to="/community"
         >
           Featured Artists
@@ -31,10 +31,10 @@ const Navbar = () => {
       </li>
       <li>
         <Link
-          className="font-poppins text-white font-thin text-xl hover:font-bold"
+          className="font-poppins text-white lg:font-thin lg:text-xl text-lg hover:font-bold"
           to="/blogs"
         >
-         Contacts
+          Contacts
         </Link>
       </li>
     </div>
@@ -42,7 +42,9 @@ const Navbar = () => {
 
   return (
     <div className="w-full">
-      <div className={`navbar absolute top-0 left-0 w-full bg-transparent z-50  mx-auto`}>
+      <div
+        className={`navbar absolute top-0 left-0 w-full bg-transparent z-50  mx-auto`}
+      >
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -63,13 +65,17 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-auto"
             >
               {navLink}
             </ul>
           </div>
-          {/* <img className="h-full object-cover" src={logo} alt="" /> */}
-          <h1 className="text-white font-extrabold text-3xl ml-4">Distrofy</h1>
+          <img
+            className="object-cover lg:w-60  lg:p-6 md:w-40 w-28"
+            src={logo}
+            alt=""
+          />
+          {/* <h1 className="text-white font-extrabold text-3xl ml-4">Distrofy</h1> */}
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navLink}</ul>
@@ -116,8 +122,21 @@ const Navbar = () => {
             </div>
           ) : (
             <Link to="/login">
-              <button className="px-6 py-2 font-medium btn btn-neutral text-white mr-4">
-                Login
+              <button
+                className={`
+        px-4 py-2 rounded-full 
+        flex items-center gap-2 bg-white 
+        text-black font-medium
+        lg:mr-5
+        lg:px-6
+        transition-all
+
+        hover:shadow-[-1px_-1px_5px_rgba(255,_255,_255,_0.6),_1px_1px_5px_rgba(0,_0,_0,_0.3),inset_-2px_-2px_5px_rgba(255,_255,_255,_1),inset_2px_2px_4px_rgba(0,_0,_0,_0.3)]
+        hover:text-[#1E67C6]
+    `}
+              >
+                
+                <span>Login</span>
               </button>
             </Link>
           )}
