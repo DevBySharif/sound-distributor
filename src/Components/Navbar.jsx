@@ -47,7 +47,7 @@ const Navbar = () => {
       >
         <div className="navbar-start">
           <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost lg:hidden">
+            <label tabIndex={0} className="btn btn-ghost lg:hidden text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -65,7 +65,7 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-auto"
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow  rounded-box w-auto bg-gray-800 dark:bg-gray-800 text-black dark:text-white"
             >
               {navLink}
             </ul>
@@ -90,7 +90,7 @@ const Navbar = () => {
               </label>
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-content rounded-box w-auto"
+                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow  rounded-box w-auto"
               >
                 <li>
                   <button className="btn btn-sm text-white btn-ghost pointer-events-none">
@@ -135,7 +135,6 @@ const Navbar = () => {
         hover:text-[#1E67C6]
     `}
               >
-                
                 <span>Login</span>
               </button>
             </Link>

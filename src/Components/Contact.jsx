@@ -51,7 +51,7 @@ const Contact = () => {
                     href="#"
                     className="text-white text-sm ml-3"
                   >
-                    <strong>+158 996 888</strong>
+                    <strong>+8801946956082</strong>
                   </a>
                 </li>
                 <li className="flex items-center">
@@ -75,7 +75,7 @@ const Contact = () => {
                     href="#"
                     className="text-white text-sm ml-3"
                   >
-                    <strong>Keshabpur,Jashore</strong>
+                    <strong>Keshabpur, Jashore, Bangladesh-7450</strong>
                   </a>
                 </li>
               </ul>
